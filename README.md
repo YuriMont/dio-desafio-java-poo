@@ -6,7 +6,7 @@ classDiagram
         -int capacidadeBateria
         -boolean ligado
         -int volume
-        +iPhone(String modelo, String numeroTelefone, int capacidadeBateria)
+        +IPhone(String modelo, String numeroTelefone, int capacidadeBateria)
         +void tocarMusica(String musica)
         +void pausarMusica()
         +void pararMusica()
@@ -28,9 +28,9 @@ classDiagram
         +int getVolume()
         +void setVolume(int volume)
     }
-    ReprodutorMusical <|.. iPhone
-    AparelhoTelefonico <|.. iPhone
-    NavegadorInternet <|.. iPhone
+    ReprodutorMusical <|.. IPhone
+    AparelhoTelefonico <|.. IPhone
+    NavegadorInternet <|.. IPhone
 
     class ReprodutorMusical {
         <<interface>>
