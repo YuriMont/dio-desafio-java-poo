@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram
-    class iPhone {
+    class IPhone {
         -String modelo
         -String numeroTelefone
         -int capacidadeBateria
